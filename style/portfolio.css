@@ -7,15 +7,46 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* Shared Styles */
+.text-primary {
+    color: #FD6E0A;
+}
+.dark-2 {
+    color: #474747;
+}
+.btn-primary {
+    background-color: #FD6E0A;
+    color: #fff;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid black;
+
+}
 
 /* Nav Styles */
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 200px;
 }
 .nav-title {
     font-weight: 800;
     font-size: 45px;
 }
-.text-primary {
-    color: #FD6E0A;
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
 }
