@@ -21,8 +21,14 @@
     font-size: 20px;
     font-weight: bold;
     border-radius: 5px;
-    border: 2px solid black;
+    border: none;
 
+}
+/* header Styles */
+.header {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 
 /* Nav Styles */
@@ -49,4 +55,27 @@ nav ul li{
 nav li a {
     text-decoration: none;
     font-size: 20px;
+}
+
+/* Banner Styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 205px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-greetings {
+    font-size: 45px;
+    font-weight: semi-bold;
+}
+
+.banner-title {
+    font-size: 55px;
+    font-weight: 800;
+}
+.banner-profile-pic {
+    width: 584px;
+    height: 676px;
 }
